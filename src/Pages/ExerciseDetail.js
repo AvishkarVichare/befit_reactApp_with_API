@@ -1,6 +1,6 @@
 import { Box, Stack,Button, Typography } from '@mui/material';
 import React, { useContext, useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom';
+import { useParams,Link } from 'react-router-dom';
 import exersizeContext from '../context/exersize/exersizeContext'
 import { fetchData, options, youtubeOptions } from '../utils/fetchData';
 import Detail from '../Components/Detail';
@@ -59,7 +59,7 @@ useEffect(() => {
 
         <div className='detailPageContainer'>
 
-        <Button variant='contained' color="error" style={{marginLeft:"40px",border:"2px solid red",borderRadius:"10px", display:"inline",padding:"10px"}} fontWeight={700}> <ArrowBackIosIcon></ArrowBackIosIcon> Go Back</Button>
+        <Link to='/' style={{textDecoration:'none', color:"#ffffff",backgroundColor:"red", marginLeft:"40px",border:"2px solid red",borderRadius:"10px", display:"inline",padding:"10px",fontWeight:'700',letterSpacing:"3"}} > <ArrowBackIosIcon></ArrowBackIosIcon> Go Back</Link>
 
         <Box style={{margin:"20px"}}>
           <Detail detail={detail}/>
