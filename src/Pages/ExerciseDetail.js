@@ -23,6 +23,8 @@ const currId = useParams();
 // console.log("currid is " ,typeof currId)
 
 useEffect(() => {
+    window.scrollTo(0, 0);
+
     
     const fetchEx = async()=>{
 
