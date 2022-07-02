@@ -12,8 +12,8 @@ const NavBar = () => {
     </Link>
 
     <Stack sx={{alignItems:"center"}} gap="20px" alignItems="flex-end" direction="row">
-        <Link to="/">Home</Link>
-        <a href="#exercises">Excersises</a>
+        <Link className='navEl' to="/">Home</Link>
+        <a className='navEl' href="#exercises">Excersises</a>
     </Stack>
 
   </Stack>

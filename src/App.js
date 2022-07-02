@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import Home from "./Pages/Home";
-import NavBar from "./Components/NavBar";
 import {Routes,Route} from 'react-router-dom'
 import ExersizeState from "./context/exersize/ExersizeState";
 import './App.css'
@@ -14,7 +13,6 @@ return(
 <>
     <ExersizeState>
 
-        <NavBar/>
         <Routes>
 
 

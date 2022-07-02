@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,500;1,400&family=Oswald:wght@200;300;700&display=swap');
+
+
+
 *{
+
+    font-family: Oswald;
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
@@ -36,7 +42,61 @@
     border-bottom-left-radius: 50%;
 }
 
+
+
+
+
 /* position:"absolute",top:"0px",marginTop:"-300px" ,height:"600px",width:"600px",right:"-10px" , borderBottomLeftRadius:"50%" */
+
+
+
+.detailImg{
+    /* aspect-ratio: 4/5; */
+    height: 500px;
+    width: 500px;
+}
+
+.detailContainer{
+    border: 2px solid red;
+    border-radius: 30px;
+    display: flex;
+    margin: 20px;
+    padding: 40px;
+}
+
+
+.iconContainer{
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 15px;
+    width: fit-content;
+    background-color: yellow;
+}
+
+.detailIcon{
+
+
+    height: 40px;
+    width: 40px;
+}
+
+
+.videoMain{
+
+    width: 400px;
+    margin: 10px;
+    text-decoration: none  ;
+}
+
+.thumbnail {
+    
+    width: 400px;
+
+    /* margin: 10px; */
+    /* height: 250px; */
+}
+
 
 @media  screen and (max-width:1000px) {
     .bannerImg{
@@ -52,20 +112,38 @@
    
 }
 
+
+@media screen and (max-width:769px){
+    .detailContainer{
+        flex-wrap: wrap;
+    }
+
+
+}
+
 @media screen and (max-width:426px) {
     .bannerImg{
         display: none;
     }
+    .detailImg{
+        height: 200px;
+    width: 180px;
+    }
 }
 
-.detailImg{
-    /* aspect-ratio: 4/5; */
-    height: 700px;
-    width: 700px;
+
+.navEl{
+    font-weight: 700;
+    color: #1f1f1f;
+    text-decoration: none;
+    transition: border-bottom 300ms ease-in-out;
 }
 
-.detailContainer{
-    display: flex;
-    margin: 50px;
-    padding: 40px;
+
+.navEl:hover{
+    border-bottom: 5px solid red;
+}
+
+.detailPageContainer{
+    margin-top: 30px;
 }

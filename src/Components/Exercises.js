@@ -24,7 +24,8 @@ let [currentPage,setcurrentPage] =useState(1);
 
 
     useEffect(() => {
-      const fetchEx = async()=>{
+
+        const fetchEx = async()=>{
         const data =await fetchData(`https://exercisedb.p.rapidapi.com/exercises`,options)
 
         if(bd){

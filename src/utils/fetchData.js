@@ -5,7 +5,7 @@
 export const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '1d70146d2fmshbdcddea1c10dc94p12fdc4jsn3068bc57606f',
+      'X-RapidAPI-Key': 'fcf64f92demsh48e340a82284ffep1c17f2jsn0de1b945fb17',
       'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
     }
   }
@@ -19,6 +19,12 @@ export const options = {
     }
   
   }
+
+
+
+
+
+
 
 export const fetchData = async(url,options)=>{
 
