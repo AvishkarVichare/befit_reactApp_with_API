@@ -1,3 +1,4 @@
+<h3>Live Link</h3> https://notesitapp.netlify.app
 
 React Js application for exercises ,
 you can see every exercise of every body part in this app.
@@ -6,7 +7,7 @@ If you click on detail button of any exercise , you will redirected to other pag
 I have use APIs from rapid API.
 (ExerciseDB for exercises , YouTube search and download api for videos). 
 
-<h3>Live Link</h3>
+
 
 
 
