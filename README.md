@@ -1,3 +1,15 @@
+
+React Js application for exercises ,
+you can see every exercise of every body part in this app.
+You can search in search box about muscle group, equipment , target muscle which will give exercises of that muscle.
+If you click on detail button of any exercise , you will redirected to other page where you will see that exercise with youtube videos related to it and also similar exercises.
+I have use APIs from rapid API.
+(ExerciseDB for exercises , YouTube search and download api for videos). 
+
+<h3>Live Link</h3>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
