@@ -1,4 +1,4 @@
-<h3>Live Link</h3> https://notesitapp.netlify.app
+<h3>Live Link</h3> https://befitapp.netlify.app/
 
 React Js application for exercises ,
 you can see every exercise of every body part in this app.
